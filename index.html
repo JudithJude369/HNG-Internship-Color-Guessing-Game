@@ -3,25 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>>HNG-12 Intership | Stage 1 TASK | Color Guessing Game</title>
+    <title>HNG-12 Intership | Stage 1 TASK | Color Guessing Game</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="container">
       <h1>Color Guessing Game</h1>
-      <p data-testid="gameInstructions">Guess the correct color!</p>
-      <div id="colorBox" data-testid="colorBox"></div>
-      <div class="options">
-        <button class="colorOption" data-testid="colorOption"></button>
-        <button class="colorOption" data-testid="colorOption"></button>
-        <button class="colorOption" data-testid="colorOption"></button>
-        <button class="colorOption" data-testid="colorOption"></button>
-        <button class="colorOption" data-testid="colorOption"></button>
-        <button class="colorOption" data-testid="colorOption"></button>
-      </div>
-      <p id="gameStatus" data-testid="gameStatus"></p>
-      <p>Score: <span id="score" data-testid="score">0</span></p>
-      <button id="newGameButton" data-testid="newGameButton">New Game</button>
+      <p class="instructions" data-testid="gameInstructions">
+        Guess the correct color!
+      </p>
+      <div id="score" data-testid="score">Score: 0</div>
+      <!-- The target color box (only the color is shown, no hex code) -->
+      <div class="color-box" id="colorBox" data-testid="colorBox"></div>
+      <!-- Container for the six color options -->
+      <div
+        class="options-container"
+        id="optionsContainer"
+        data-testid="colorOption"
+      ></div>
+      <!-- Message area for congratulatory or try-again texts -->
+      <div id="message" data-testid="gameStatus"></div>
+      <!-- New Game button to reset the score and start over -->
+      <button id="newGameBtn" data-testid="newGameButton">New Game</button>
     </main>
     <script src="script.js"></script>
   </body>
