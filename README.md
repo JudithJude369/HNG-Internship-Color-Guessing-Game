@@ -11,8 +11,9 @@ HNG-Internship-Color-Guessing-Game
 
 # Screenshot
 screenshot of  solution.
-![Designo-website](https://github.com/user-attachments/assets/41ad4ddc-b16f-4745-9bb6-5a81e3742b0b)
+
+![Color-Guess-Game](https://github.com/user-attachments/assets/5c7b3e08-8950-472e-bded-7aa938c9868e)
 
 ### Links
-[LIVE DEMO](https://designo-website-lilac.vercel.app/)
+[LIVE DEMO](https://judithjude369.github.io/HNG-Internship-Color-Guessing-Game/)
 
